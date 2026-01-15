@@ -196,6 +196,9 @@
     width: 100%;
     text-align: center;
   } 
+  .container div .filter-box{
+    width:90%
+  }
 }
 @media screen and (max-width: 480px) {
   .container .heading h1 {
@@ -205,6 +208,9 @@
   }
   .container .menu-box .food{
     max-width: 60%;
+  }
+  .container div .filter-box{
+    width:90%
   }
 }
 @media screen and (max-width: 320px) {
@@ -219,5 +225,8 @@
   }
   .container .menu-box .food{
     max-width: 60%;
+  }
+  .container div .filter-box{
+    width:90%
   }
 }
