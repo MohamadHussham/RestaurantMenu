@@ -205,10 +205,16 @@
     }
      .container .filter-box .button {
     text-align: center;
-    width: 100vw;
+    width: 50%;
      justify-content: center;
     align-content: center;
     margin-bottom: 5px;
+    margin-left: 50vw;
+  }
+  .container .filter-box div {
+    box-sizing: border-box;
+    margin: 5px;
+    width : 25vw
   }
 }
 @media screen and (max-width: 480px) {
