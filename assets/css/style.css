@@ -196,8 +196,8 @@
     width: 100%;
     text-align: center;
   } 
-  .container div .filter-box{
-    width:90%
+  .container .filter-box{
+    width:70%
   }
 }
 @media screen and (max-width: 480px) {
@@ -209,8 +209,8 @@
   .container .menu-box .food{
     max-width: 60%;
   }
-  .container div .filter-box{
-    width:90%
+  .container .filter-box{
+    width:70%
   }
 }
 @media screen and (max-width: 320px) {
@@ -226,7 +226,7 @@
   .container .menu-box .food{
     max-width: 60%;
   }
-  .container div .filter-box{
-    width:90%
+  .container .filter-box{
+    width:70%
   }
 }
