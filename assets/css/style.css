@@ -199,7 +199,10 @@
   .container .filter-box{
     width:50%;
     flex-wrap: wrap;
-  }
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    }
 }
 @media screen and (max-width: 480px) {
   .container .heading h1 {
@@ -213,6 +216,9 @@
   .container .filter-box{
     width:50%;
      flex-wrap: wrap;
+     justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -231,5 +237,8 @@
   .container .filter-box{
     width:50%;
      flex-wrap: wrap;
+     justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
   }
 }
