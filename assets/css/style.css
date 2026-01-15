@@ -175,3 +175,49 @@
   background: #b8864e;
   color: #ffffff;
 }
+@media screen and (max-width: 768px) {
+  .container .menu-box .food {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width:100%;
+    align-items: center;
+  }
+  .container .menu-box .food{
+    max-width: 60vw
+  }
+  .container .menu-box .food .img-box {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .container .menu-box .food .info {
+    width: 100%;
+    text-align: center;
+  } 
+}
+@media screen and (max-width: 480px) {
+  .container .heading h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+
+  }
+  .container .menu-box .food{
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container .filter-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .filter-box div {
+    margin: 10px 0;
+  }
+  .container .menu-box .food{
+    max-width: 60%;
+  }
+}
