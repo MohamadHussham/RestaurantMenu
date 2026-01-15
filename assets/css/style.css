@@ -197,7 +197,8 @@
     text-align: center;
   } 
   .container .filter-box{
-    width:50%
+    width:50%;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 480px) {
@@ -210,7 +211,8 @@
     max-width: 60%;
   }
   .container .filter-box{
-    width:50%
+    width:50%;
+     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 320px) {
@@ -227,6 +229,7 @@
     max-width: 60%;
   }
   .container .filter-box{
-    width:50%
+    width:50%;
+     flex-wrap: wrap;
   }
 }
