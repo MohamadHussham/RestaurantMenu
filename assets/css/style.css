@@ -205,7 +205,7 @@
     }
      .container .filter-box .button {
     text-align: center;
-    width: 50%;
+    width: 50vw;
      justify-content: center;
     align-content: center;
     margin-bottom: 5px;
@@ -229,7 +229,7 @@
   }
    .container .filter-box .button {
     text-align: center;
-    width: 50%;
+    width: 50vw;
      justify-content: center;
     align-content: center;
     margin-bottom: 5px;
@@ -257,7 +257,7 @@
   }
   .container .filter-box .button {
     text-align: center;
-    width: 50%;
+    width: 50vw;
      justify-content: center;
     align-content: center;
     margin-bottom: 5px;
